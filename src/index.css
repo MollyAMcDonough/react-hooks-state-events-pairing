@@ -9,4 +9,23 @@ body {
 
 .App {
   text-align: center;
+  padding: 2px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.divider {
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.divider > * {
+  display: inline-block;
+}
+
+button {
+  margin: 2px;
 }
